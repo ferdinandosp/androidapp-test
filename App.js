@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import { getData } from './shared/getdata.js';
+import { getData } from './shared-submodule/getdata.js';
 
 export default class App extends React.Component {
   render() {
